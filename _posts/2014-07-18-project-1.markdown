@@ -1,0 +1,15 @@
+---
+layout: default
+modal-id: 3
+date: 2014-07-1
+img: project3.jpg
+alt: Hebler Blueberries
+project-date: May 2014
+client: Hebler Blueberries
+url-out: http://www.heblerblueberries.com
+category: Design/WordPress Template
+description: This was a project for my family's blueberry farm in Ringgold, LA. 
+
+
+
+---

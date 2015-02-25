@@ -1,0 +1,30 @@
+#about{
+    background-image: url("../img/waves-clip.svg");
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    background-size:auto 100px;
+}
+#about .btn-outline{
+    margin-bottom: 20px;
+}
+hr.star-light:after,
+hr.star-primary:after {
+    content: "\f121";
+}
+header .intro-text .name {
+    text-shadow: 1px 1px 1px #{{ site.color.secondary }};
+}
+header .intro-text .skills {
+    padding:10px;
+    background: #{{ site.color.secondary }};
+}  
+
+.modal-body .btn-outline{
+	color:#{{ site.color.primary }};
+	border-color:#{{ site.color.primary }};
+}
+.modal-body .btn-outline:hover{
+	background:#{{ site.color.secondary }};
+	color:#fff;
+	border-color:#{{ site.color.secondary }};
+} 

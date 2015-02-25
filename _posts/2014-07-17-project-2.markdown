@@ -1,0 +1,15 @@
+---
+layout: default
+modal-id: 1
+date: 2014-07-18
+img: project1.jpg
+alt: Bodhi Movement Yoga
+project-date: June 2014
+client: Bodhi Movement Yoga
+url-out: http://www.bodhimovementyoga.com
+category: Design/WordPress Template
+description: This project was a full design and development project for an up and coming yoga studio, based out of Jackson, New Jersey. The package included logo design and the site is designed to be fully responsive on all devices. The site was built using Bootstrap and Wordpress.
+
+
+
+---
