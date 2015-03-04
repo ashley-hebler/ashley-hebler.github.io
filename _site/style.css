@@ -467,13 +467,21 @@ footer .footer-below {
 
 
 #about{
-    background-image: url("../img/waves-clip.svg");
-    background-repeat: repeat-x;
-    background-position: left bottom;
-    background-size:auto 100px;
+    position: relative;
+
+    
 }
-#about .btn-outline{
-    margin-bottom: 20px;
+
+#about:after{
+    content:'';
+    left:0;
+    bottom:0;
+    width: 100%;
+    height: 122px;
+    position: absolute;
+    background-repeat: repeat-x;
+    background-image: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='200' height='200' viewBox='0 0 4654 1024'><path fill='%232c3e50' width='200' height='200' d='M4653.754 206.5v817.501h-4653.754v-802.751c285.942 0 453.561-221.25 739.474-221.25s492.973 221.25 759.18 221.25 493.002-221.25 847.946-221.25 542.267 255.676 759.18 221.25c216.913-34.426 522.561-221.25 838.062-221.25s463.414 221.25 709.885 221.25z'/></svg>");
+    background-position: left 0;
 }
 hr.star-light:after,
 hr.star-primary:after {
