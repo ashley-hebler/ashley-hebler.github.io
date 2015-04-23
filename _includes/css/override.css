@@ -29,13 +29,13 @@ header .intro-text .skills {
 	border-color:#{{ site.color.secondary }};
 } 
 .footer .footer-above {
-    padding-top: 0
+    padding-top: 0 !important;
 }
 
 header {
     background: url('../img/river.jpg') no-repeat center center;
     -webkit-background-size: cover;
-    background-size: cover;
+    background-size: cover; 
 }
 .about__inner {
     padding: 0 20px;
@@ -51,5 +51,5 @@ header {
     
 }
 header .intro-text .name {
-    text-shadow: 5px 5px 0px #2c3e50;
+    text-shadow: 0 0 0px #2c3e50;
 }
